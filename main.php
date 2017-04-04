@@ -1,3 +1,5 @@
 <?php
-    echo 'Hello world!';
-    echo 'test';
+    for($i=0;$i<10;$i++){
+      echo 'Hello world!<br>';
+      echo 'test<br>';
+	}
