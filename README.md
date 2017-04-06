@@ -1,18 +1,27 @@
-# web592group01
-test
+# [Start Bootstrap](http://startbootstrap.com/) - [SB Admin](http://startbootstrap.com/template-overviews/sb-admin/)
 
-ชื่อกลุ่ม พลอยสวยมากค่ะ<br>
+[SB Admin](http://startbootstrap.com/template-overviews/sb-admin/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-สมาชิกกลุ่ม<br>
-นายกิตติพิชญ์  เลิศล้ำ    รหัส 583020646-4 <br>
-นางสาว ภัทรกร มีประเสริฐ รหัส 583020674-9 <br>
-นางสาว ณัฐมน ศรีสง่า    รหัส 583021374-6 <br>
-นางสาว สุดารัตน์ เมืองแวง รหัส 583021400-1 <br>
+## Getting Started
 
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin.git`
+* Fork the repo
 
-<hr>
-โครงงานนี้เป็นส่วนหนึ่งของวิชา 322-236 Web Appplication Programming<br>
+## Bugs and Issues
 
-[ภาควิชาวิทยาการคอมพิวเตอร์] (http:/www.cs.kku.ac.th/)<br>
-[คณะวิทยาศาสตร์] (http:/www.sc.kku.ac.th/)<br>
-[มหาวิทยาลัยขอนแก่น] (http:/www.kku.ac.th/)<br>
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin/).
+
+## Creator
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/gh-pages/LICENSE) license.

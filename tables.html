@@ -4,12 +4,6 @@
 <head>
 
     <meta charset="utf-8">
-	<!--ส่วน include flexslider -->
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-	<link rel="stylesheet" type="text/css" href="css/custom.css" />
-	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
-	<!--จบส่วน include flexslider -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -23,9 +17,6 @@
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
 
-    <!-- Morris Charts CSS -->
-    <link href="css/plugins/morris.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -35,26 +26,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	
-	
-	
-        
-		
-
-		
-		
-        
-		
-		
-       
 
 </head>
 
 <body>
 
-    
-<div id="wrapper">
+    <div id="wrapper">
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -66,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="main.php"><div style= "font-family: verdana;font-size: 30px;" >Garage_Auto</div></a>
+                <a class="navbar-brand" href="index.html">SB Admin</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -172,18 +149,24 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    
-					<!--active ดูด้วย--><!--active ดูด้วย--><!--active ดูด้วย-->							
-					<li class="active"><!---->
-                        <a href="main.php"><h1> HOME </h1> </a>
+                    <li>
+                        <a href="main.php"><i class="fa fa-fw fa-dashboard"></i> HOME</a>
                     </li>
                     <li>
-                        <a href="jazzcar.html"><i class="fa fa-fw fa-dashboard"></i>JAZZ</a>
+                        <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Type</a>
+                    </li>
+                    <li class="active">
+                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> Top 10</a>
                     </li>
                     <li>
-                        <a href="classiccar.html"><i class="fa fa-fw fa-table"></i> Classic</a>
+                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> New</a>
                     </li>
-                   
+                    <li>
+                        <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Review</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                    </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> อุปกรณ์เสริม <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
@@ -202,148 +185,30 @@
             </div>
             <!-- /.navbar-collapse -->
         </nav>
-			<!--จบclass แท็ปข้างๆ --> <!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ -->
-			 
-			 <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  -->
-		 <div id="page-wrapper">
-            <div class="container-fluid">       
-				<div class="wrapper">
-				
-				<ul id="sb-slider" class="sb-slider">
-				<li>
-					<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->    <!--ใส่ styple รูปได้  -->
-						<img src="https://scontent.fbkk2-2.fna.fbcdn.net/v/t1.0-9/13529257_1738162029806820_5734152291701538790_n.jpg?oh=482274a008f4fc16221dde5129e15fe7&oe=5956389F" alt=""/>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Credit FB:JAZZ ซิ่ง</h3>
-						</div>
-					</li>	
-					
-					<li>
-					<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->    <!--ใส่ styple รูปได้  -->
-						<a href="jazzcar.html" target="_blank"><img src="photo/Jazz7004.jpg" alt="Jazz7004.jpg"/></a>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Credit : Chanchai Ngamchuen FB:JAZZ ซิ่ง</h3>
-						</div>
-					</li>	
-					<li>
-						<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->             <!--ใส่ styple รูปได้  -->
-						<a href="classiccar.html" target="_blank"><img src="photo/car1.jpg" alt="car1.jpg"/></a>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Classic car</h3>
-						</div>
-					</li>
-				</ul>
 
-				<div id="shadow" class="shadow"></div>
+        <div id="page-wrapper">
 
-				<div id="nav-arrows" class="nav-arrows">
-					<a href="#">Next</a>
-					<a href="#">Previous</a>
-				</div>
+            <div class="container-fluid">
 
-				<div id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					
-					<span></span>
-					<span></span>
-					<span></span>
-					
-				</div>
-
-		
-			</div><!-- /wrapper -->
-
-			
-
-		</div>
-		
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Tables
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-table"></i> Tables
+                            </li>
+                        </ol>
+                    </div>
+                </div>
                 <!-- /.row -->
 
                 
-	
-	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
-		<script type="text/javascript">
-			$(function() {
-
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$navDots = $( '#nav-dots' ).hide(),
-						$nav = $navDots.children( 'span' ),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-
-								$navArrows.show();
-								$navDots.show();
-								$shadow.show();
-
-							},
-							onBeforeChange : function( pos ) {
-
-								$nav.removeClass( 'nav-dot-current' );
-								$nav.eq( pos ).addClass( 'nav-dot-current' );
-
-							}
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-								
-								slicebox.previous();
-								return false;
-
-							} );
-
-							$nav.each( function( i ) {
-							
-								$( this ).on( 'click', function( event ) {
-									
-									var $dot = $( this );
-									
-									if( !slicebox.isActive() ) {
-
-										$nav.removeClass( 'nav-dot-current' );
-										$dot.addClass( 'nav-dot-current' );
-									
-									}
-									
-									slicebox.jump( i + 1 );
-									return false;
-								
-								} );
-								
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
-		</script>
 
 </body>
 
