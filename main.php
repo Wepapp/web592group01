@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>Garage_Auto</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -175,7 +175,7 @@
                     
 					<!--active ดูด้วย--><!--active ดูด้วย--><!--active ดูด้วย-->							
 					<li class="active"><!---->
-                        <a href="main.php"><h1> HOME </h1> </a>
+                        <a href="main.php"><i class="fa fa-fw fa-home"></i><h1> HOME </h1> </a>
                     </li>
                     <li>
                         <a href="jazzcar.html"><i class="fa fa-fw fa-dashboard"></i>JAZZ</a>
@@ -185,7 +185,7 @@
                     </li>
                    
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> อุปกรณ์เสริม <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="accessories.html" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Accessories <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
                                 <a href="#">Dropdown Item</a>
@@ -233,6 +233,14 @@
 						<div class="sb-description">
 						<!--คำบรรยายได้รูป-->
 							<h3>Classic car</h3>
+						</div>
+					</li>
+					<li>
+						<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->             <!--ใส่ styple รูปได้  -->
+						<a href="accessories.html" target="_blank"><img src="photo/accessories1.jpg" alt="accessories1.jpg"/></a>
+						<div class="sb-description">
+						<!--คำบรรยายได้รูป-->
+							<h3>Accessories</h3>
 						</div>
 					</li>
 				</ul>
