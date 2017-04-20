@@ -181,7 +181,7 @@
                         <a href="jazzcar.html"><i class="fa fa-fw fa-dashboard"></i>JAZZ</a>
                     </li>
                     <li>
-                        <a href="classiccar.html"><i class="fa fa-fw fa-table"></i> Classic</a>
+                        <a href="classiccar.html"><i class="fa fa-fw fa-car"></i> Classic</a>
                     </li>
                    
                     <li>
