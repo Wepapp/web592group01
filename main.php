@@ -185,15 +185,7 @@
                     </li>
                    
                     <li>
-                        <a href="accessories.html" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Accessories <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="demo" class="collapse">
-                            <li>
-                                <a href="#">Dropdown Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Dropdown Item</a>
-                            </li>
-                        </ul>
+						<a href="accessories.html"><i class="fa fa-fw fa-arrows-v"></i> Accessories</a>
                     </li>
                     <li>
                         <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
@@ -273,9 +265,14 @@
                 
 	
 	
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins/morris/raphael.min.js"></script>
+    <script src="js/plugins/morris/morris.min.js"></script>
+    <script src="js/plugins/morris/morris-data.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
-		<script type="text/javascript">
+	<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+	<script type="text/javascript">
 			$(function() {
 
 				var Page = (function() {
