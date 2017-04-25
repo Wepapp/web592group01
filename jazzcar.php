@@ -8,12 +8,6 @@
 <head>
 
     <meta charset="utf-8">
-	<!--ส่วน include flexslider -->
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-	<link rel="stylesheet" type="text/css" href="css/custom.css" />
-	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
-	<!--จบส่วน include flexslider -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -39,26 +33,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	
-	
-	
-        
-		
-
-		
-		
-        
-		
-		
-       
 
 </head>
 
 <body>
 
-    
-<div id="wrapper">
+    <div id="wrapper">
 
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -173,13 +153,13 @@
                     </ul>
                 </li>
 				
-				 <li class="dropdown">
+				<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         
                         <li>
 						
-                           <?php 
+				 <?php 
 						   panel_include("User","logingmail.php");
 						   ?>
                         </li>
@@ -189,189 +169,154 @@
 				
             </ul>
 			
-			
+			 
 			
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    
-					<!--active ดูด้วย--><!--active ดูด้วย--><!--active ดูด้วย-->							
-					<li class="active"><!---->
-                        <a href="main.php"><i class="fa fa-fw fa-home"></i><h1> HOME </h1> </a>
-                    </li>
                     <li>
-                        <a href="jazzcar.php"><i class="fa fa-fw fa-dashboard"></i>JAZZ</a>
+                        <a href="main.php"><i class="fa fa-fw fa-home"></i> HOME</a>
+                    </li>
+                    <li class="active">
+                        <a href="jazzcar.php"><i class="fa fa-fw fa-dashboard"></i><h2> JAZZ</h2></a>
                     </li>
                     <li>
                         <a href="classiccar.php"><i class="fa fa-fw fa-car"></i> Classic</a>
                     </li>
-                   
+					</li>
                     <li>
-						<a href="accessories.php"><i class="fa fa-fw fa-arrows-v"></i> Accessories</a>
+                        <a href="accessories.php"><i class="fa fa-fw fa-wrench"></i> Accessories</a>
                     </li>
-                    <li>
-                        <a href="blank-page.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                    </li>
-                </ul>
+                  
             </div>
             <!-- /.navbar-collapse -->
         </nav>
-			<!--จบclass แท็ปข้างๆ --> <!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ --><!--จบclass แท็ปข้างๆ -->
-			 
-			 <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  --> <!--class เพิ่มรูป  -->
-		 <div id="page-wrapper">
-            <div class="container-fluid">       
-				<div class="wrapper">
-				
-				<ul id="sb-slider" class="sb-slider">
-				<li>
-					<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->    <!--ใส่ styple รูปได้  -->
-						<img src="https://scontent.fbkk2-2.fna.fbcdn.net/v/t1.0-9/13529257_1738162029806820_5734152291701538790_n.jpg?oh=482274a008f4fc16221dde5129e15fe7&oe=5956389F" alt=""/>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Credit FB:JAZZ ซิ่ง</h3>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading  กรอบด้านในของหน้านั้น -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            JAZZ <small>Car</small>
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="main.php">Dashboard</a>
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-bar-chart-o"></i> Charts
+                            </li>
+                        </ol>
+						<div class="jazz1"> <!-- ใส่รูปรถ ใส่ได้divละ 3 อัน-->
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>Volk Racing Se37K ล้อแม็กสุดซิ่งที่กำลังมาแรง <br>
+											<img src="Photo/jazz1.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>AZC ฝากระโปรงหน้า Carbon Fiber Civic FC <br>
+											<img src="Photo/jazz2.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>Defi Advance A1 เกจวัดตัวล่าสุดจากทางค่าย Defi<br>
+											<img src="Photo/jazz3.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
 						</div>
-					</li>	
-					
-					<li>
-					<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->    <!--ใส่ styple รูปได้  -->
-						<a href="jazzcar.html" target="_blank"><img src="photo/Jazz7004.jpg" alt="Jazz7004.jpg"/></a>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Credit : Chanchai Ngamchuen FB:JAZZ ซิ่ง</h3>
+						<div class="jazz2"> <!-- ใส่รูปรถ ใส่ได้divละ 3 อัน-->
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>Armytrix Exhaust ท่ออัจฉริยะ จะเงียบจะลั่น<br>
+											<img src="Photo/jazz4.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>TAKATA DRIFT III BOLT เข็มขัดนิรภัย<br>
+											<img src="Photo/jazz9.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>โช๊คอัพ Tunerconcept<br>
+											<img src="Photo/jazz8.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
 						</div>
-					</li>	
-					<li>
-						<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->             <!--ใส่ styple รูปได้  -->
-						<a href="classiccar.html" target="_blank"><img src="photo/car1.jpg" alt="car1.jpg"/></a>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Classic car</h3>
+						<div class="jazz3"> <!-- ใส่รูปรถ ใส่ได้divละ 3 อัน-->
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>Armytrix Exhaust ท่ออัจฉริยะ จะเงียบจะลั่น<br>
+											<img src="Photo/jazz10.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>TAKATA DRIFT III BOLT เข็มขัดนิรภัย<br>
+											<img src="Photo/jazz.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 text-center">
+								<div class="panel panel-default">
+									<div class="panel-body">
+										<li class="active">
+											<i class="fa"></i>โช๊คอัพ Tunerconcept<br>
+											<img src="Photo/jazz11.jpg" width="300" height="150">
+										</li><br>
+									</div>
+								</div>
+							</div>
 						</div>
-					</li>
-					<li>
-						<!--ทำให้รูป link ได้ เพิ่มlink ได้ -->             <!--ใส่ styple รูปได้  -->
-						<a href="accessories.html" target="_blank"><img src="photo/accessories1.jpg" alt="accessories1.jpg"/></a>
-						<div class="sb-description">
-						<!--คำบรรยายได้รูป-->
-							<h3>Accessories</h3>
-						</div>
-					</li>
-				</ul>
-
-				<div id="shadow" class="shadow"></div>
-
-				<div id="nav-arrows" class="nav-arrows">
-					<a href="#">Next</a>
-					<a href="#">Previous</a>
-				</div>
-
-				<div id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					
-					<span></span>
-					<span></span>
-					<span></span>
-					
-				</div>
-
-		
-			</div><!-- /wrapper -->
-
-			
-
+                    </div>
+                </div>
+			</div>
 		</div>
-		
                 <!-- /.row -->
 
-                
-	
-	
-	<script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.slicebox.js"></script>
-	<script type="text/javascript">
-			$(function() {
-
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$navDots = $( '#nav-dots' ).hide(),
-						$nav = $navDots.children( 'span' ),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-
-								$navArrows.show();
-								$navDots.show();
-								$shadow.show();
-
-							},
-							onBeforeChange : function( pos ) {
-
-								$nav.removeClass( 'nav-dot-current' );
-								$nav.eq( pos ).addClass( 'nav-dot-current' );
-
-							}
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-								
-								slicebox.previous();
-								return false;
-
-							} );
-
-							$nav.each( function( i ) {
-							
-								$( this ).on( 'click', function( event ) {
-									
-									var $dot = $( this );
-									
-									if( !slicebox.isActive() ) {
-
-										$nav.removeClass( 'nav-dot-current' );
-										$dot.addClass( 'nav-dot-current' );
-									
-									}
-									
-									slicebox.jump( i + 1 );
-									return false;
-								
-								} );
-								
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
-		</script>
-
+                <!-- Flot Charts -->
+				<!-- ห้ามลบนะอีผี -->
+				<script src="js/jquery.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+	</div>
 </body>
 
 </html>
