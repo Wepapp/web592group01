@@ -23,7 +23,7 @@ echo "<img src='".userpic($uid)."' width='200'><br>";
 echo $userdata['nick'];
 
 //แก้ไข user
-echo "<br><a href='test3.php?p=edituser'>Edit User</a>";
+echo "<br><a href='imcuser.php?p=edituser'>Edit User</a>";
 echo "<br><a href='$url'>Logout</a>";
 }else{
 $url = UserService::createLoginUrl('/main.php');

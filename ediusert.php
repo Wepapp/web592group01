@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
   use google\appengine\api\users\User; 
   use google\appengine\api\users\UserService;   
@@ -20,11 +19,11 @@
  $json = json_encode($userdata, JSON_PRETTY_PRINT);   
  $userfile  = "gs://$appid/user_$uid.json";   
  file_put_contents($userfile,$json);
- echo "<br>บันทกึเรยีบรอ้ย  <a href='main.php?p=imcuser'>ตกลง</a>"; 
+ echo "<br>บันทกึเรยีบรอ้ย  <a href='main.php?p=edituser'>ตกลง</a>"; 
  return; 
  }  
  ?> 
-  <html>
+ <html>
  <form method="post" action="" enctype="multipart/form-data">
 	<div class="form-group col-md-12" > 
 		<label for="nick">Nick Name</label> 
@@ -47,9 +46,10 @@
 		<input class="form-control" type='file' name='pic'>
 	</div> 
  
-<button class="btn btn-primary">  Save </button> </form> 
+<button class="btn btn-primary">  Save </button> </form>
+ </html> 
  
 
- </html>
+ 
  
  
