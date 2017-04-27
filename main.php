@@ -269,9 +269,7 @@
 				<div id="nav-dots" class="nav-dots">
 					<span class="nav-dot-current"></span>
 					
-					<span></span>
-					<span></span>
-					<span></span>
+					
 					
 				</div>
 
